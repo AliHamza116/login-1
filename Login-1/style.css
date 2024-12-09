@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -8px;
+	margin-bottom: 30px;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  border: 1px solid white;
+  border-radius: 30px;
+  backdrop-filter: blur(8px);
+}
+
+.sub-main {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.input-field {
+  border: 1px solid black;
+  margin: 10px;
+  width: 250px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.input-field input {
+  position: relative;
+  border-radius: 30px;
+  min-width: 250px;
+  height: 40px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+button{
+	position: relative;
+	border: 1px solid black;
+	margin: 10px;
+	width: 250px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.end{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+button:hover {
+	transform: scale(1.05);
+	background-color: brown;
+	color:white;
+	font-weight: bold;
+}
+
+body{
+	color: white;
+	background: url(image10.jpg)no-repeat bottom fixed;
+	background-size: cover;
+	margin: 0; 
+    height: 100vh;
+}
